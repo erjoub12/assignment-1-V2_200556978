@@ -1,4 +1,10 @@
 package ca.georgiancollege.moviesearchapp.model
 
-class Movie {
-}
+data class Movie(
+    val Title: String,
+    val Year: String,
+    val Director: String,
+    val imdbRating: String,
+    val Plot: String,
+    val Poster: String
+)
